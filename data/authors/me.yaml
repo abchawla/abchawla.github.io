@@ -2,9 +2,9 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Abhimanyu Chawla
+  given: Abhimanyu
+  family: Chawla
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
@@ -13,15 +13,15 @@ postnominals:
   - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Systems Architect
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
+  Abhimanyu Chawla is a Systems Architect at Colorado State University. His research
   has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
+  10,000 citations. Abhimanyu is passionate about pushing the boundaries of AI
   while ensuring ethical development.
 
 affiliations:
-  - name: Meta AI
+  - name: Colorado State University
     url: https://ai.meta.com/
 
 links:
