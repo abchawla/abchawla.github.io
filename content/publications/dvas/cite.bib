@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3750555.3811898,
+author = {Chawla, Abhimanyu and Ray, Indrakshi},
+title = {DVAS: Dynamic Vulnerability-Aware Scheduling for HPC Clusters using Splunk-Driven Access Control},
+year = {2026},
+isbn = {9798400721076},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3750555.3811898},
+doi = {10.1145/3750555.3811898},
+abstract = {High Performance Computing (HPC) environments are increasingly being considered as high-value target for attackers. Vulnerabilities identified in such environments cannot be immediately patched because of the need for high system availability and long-running workflows. If jobs execute on vulnerable nodes, the value of the output produced are suspect. Moreover, if vulnerable nodes are completely excluded from job allocation, the throughput of the system is affected. Towards this end, we propose DVAS, a dynamic vulnerability-aware scheduling mechanism that aims to maximize throughput taking into account the risk caused by vulnerabilities. DVAS correlates real-time vulnerability telemetry with user behavioral profiling to calculate a probabilistic risk score which is used as a dynamic attribute for controlling access to compute nodes in an HPC cluster. DVAS is implemented using our proposed Secure Job Admission (SJA) algorithm that uses Splunk analytics. We use an asynchronous architecture that decouples the Policy Decision Point (PDP) from the Policy Enforcement Point (PEP), achieving a mean enforcement latency of 0.88ms. Our evaluation on a 25-node cluster shows that DVAS reduces risk exposure by 98\% while maintaining 91.8\% utilization, significantly outperforming traditional ''drain-and-patch'' strategies. We also propose a measure called Security-Weighted Throughput (SWT) of a cluster that maps security into an operational cost and determines the throughput taking into account the untrustworthiness of results produced by execution on a node containing exploitable vulnerabilities.},
+booktitle = {Proceedings of the 31st ACM Symposium on Access Control Models and Technologies},
+pages = {87–97},
+numpages = {11},
+keywords = {hpc security, splunk, slurm, vulnerability-aware access control, behavioral profiling},
+location = {Canada},
+series = {SACMAT '26}
+}
